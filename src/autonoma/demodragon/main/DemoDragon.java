@@ -9,7 +9,7 @@ import autonoma.demodragon.gui.GameDragon;
 
 /**
  *
- * @author USUARIO
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
  */
 public class DemoDragon {
 

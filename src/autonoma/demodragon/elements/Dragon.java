@@ -6,10 +6,16 @@ import java.awt.Image;
 import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 
+/**
+ *
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
+ */
+
 public class Dragon extends Sprite {
 
     public static final int STEP = 10;
     public static final int EAT_SIZE = 10;
+    public static final int MIN_SIZE = 30; 
     private int caveWidth;
     private int caveHeight;
     private Image dragonImage; 
@@ -19,13 +25,11 @@ public class Dragon extends Sprite {
         this.caveWidth = caveWidth;
         this.caveHeight = caveHeight;
 
-        
         dragonImage = new ImageIcon(getClass().getResource("/autonoma/demodragon/images/dragon.png")).getImage();
     }
 
     @Override
     public void draw(Graphics g) {
-       
         g.drawImage(dragonImage, x, y, width, height, null);
     }
 
@@ -35,8 +39,8 @@ public class Dragon extends Sprite {
     }
 
     public void shrink() {
-        width = Math.max(10, width - EAT_SIZE);
-        height = Math.max(10, height - EAT_SIZE);
+        width = Math.max(MIN_SIZE, width - EAT_SIZE);
+        height = Math.max(MIN_SIZE, height - EAT_SIZE);
     }
 
     public void handleKey(KeyEvent e) {

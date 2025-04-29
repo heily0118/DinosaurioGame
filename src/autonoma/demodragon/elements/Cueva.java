@@ -5,6 +5,12 @@ import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 
+
+/**
+ *
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
+ */
+
 public class Cueva extends Sprite {
     private Dragon dragon;
     private ArrayList<Oro> oros = new ArrayList<>();

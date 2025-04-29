@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author educacion
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
  */
 public abstract class Sprite {
     protected int x;

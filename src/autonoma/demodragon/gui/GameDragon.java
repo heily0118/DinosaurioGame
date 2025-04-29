@@ -11,7 +11,7 @@ import java.util.HashSet;
 
 /**
  *
- * @author educacion
+ * @author Heily Yohana Rios Ayala <heilyy.riosa@autonoma.edu.co>
  */
 public class GameDragon extends javax.swing.JFrame {
 
