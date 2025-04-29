@@ -84,7 +84,7 @@ public class Cueva extends Sprite {
         int x = (int)(Math.random() * width);
         int y = (int)(Math.random() * height);
         
-        Piedra piedrita = new Piedra(x, y, 25, 25, Color.GRAY);
+        Piedra piedrita = new Piedra(x, y, 25, 25);
         piedras.add(piedrita);
     }
 }
